@@ -42,7 +42,7 @@ mkdir Output
 
 mkdir Input
 
-# Upload the both images in Input directory names it as 1.jpeg {png watever it is }   2.jpeg{png} 
+// Upload the both images in Input directory names it as 1.jpeg {png watever it is }   2.jpeg{png} 
 
 cd scripts
 
