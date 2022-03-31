@@ -29,3 +29,23 @@ It uses Principal Component Analysis (PCA) and K-means clustering techniques ove
 **NB**: The output directory should end with '/'.   
 The script will generate a difference image named `difference` and a `ChangeMap` image.   
 Other images are generated depending on morphological transformations.
+
+
+
+## To RUN ON  GOOGLE COLAB
+
+!git clone https://github.com/Awanit512/Change-detection-in-multitemporal-satellite-images.git
+
+cd Change-detection-in-multitemporal-satellite-images/
+
+mkdir Output
+
+mkdir Input
+
+# Upload the both images in Input directory names it as 1.jpeg {png watever it is }   2.jpeg{png} 
+
+cd scripts
+
+!python DetectChange.py -io /content/Change-detection-in-multitemporal-satellite-images/Input/1.jpeg -it /content/Change-detection-in-multitemporal-satellite-images/Input/2.jpeg -o /content/Change-detection-in-multitemporal-satellite-images/Output/ 
+
+
